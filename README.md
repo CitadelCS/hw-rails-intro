@@ -4,8 +4,7 @@ Modifying RottenPotatoes
 # Rails Intro: add features to RottenPotatoes
 
 In this homework you will add a feature to an existing simple Rails app
-and deploy the result publicly on the Heroku cloud hosting service. We
-will run live integration tests against your deployed version. 
+and deploy the result publicly on the Heroku cloud hosting service.
 
 General advice:  This homework involves modifying RottenPotatoes in
 various ways. Git is your friend: commit frequently in case you
@@ -32,9 +31,5 @@ credit.
 
 Once you're confident the functionality works correctly on Heroku,
 submit the 
-URI of your deployed Heroku app in a text file with no other
-contents. 
+URI of your deployed Heroku app according to the submission instructions.
 
-**Please be careful** to use **http** and not **https**, that is, 
-submit `http://your-app.herokuapp.com` **and NOT**
-`https://your-app.herokuapp.com`. 
