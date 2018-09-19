@@ -3,11 +3,12 @@
 
 If you have deployed to Heroku before, just create a new app container with `heroku create`.  If this is your first time deploying to Heroku, you will need to do two things.  First, sign up for a free [Heroku account](http://heroku.com).  The basic command you need is the following, but see the [Heroku page](https://devcenter.heroku.com/articles/heroku-cli) for more details.
 
-On AWS Cloud9, use the following commands to install Heroku.
+On AWS Cloud9, use the following commands to install Heroku. If Heroku commands give error messages later, you may need to rerun these two commands.
 ```sh
 $ nvm i v8
 $ npm install -g heroku
 ```
+Once the Heroku CLI is available, you can log in.
 
 ```sh
 $ heroku login
