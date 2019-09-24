@@ -2,7 +2,7 @@
 
 On the list of all movies page, make the column headings for "Movie Title" and "Release Date" into clickable links. Clicking one of them should cause the list to be reloaded but sorted in ascending order on that column. For example, clicking the "release date" column heading should redisplay the list of movies with the earliest-released movies first; clicking the "title" header should list the movies alphabetically by title. (For movies whose names begin with non-letters, the sort order should match the behavior of `String#<=>`.)
 
-When the listing page is redisplayed with sorting-on-a-column enabled, the column header that was selected for sorting should appear with a yellow background, as shown below. You should do this by setting controller variables that are used to conditionally set the CSS class of the appropriate table heading to `hilite`, and pasting this simple CSS into RottenPotatoes `app/assets/stylesheets/default.css` file:
+When the listing page is redisplayed with sorting-on-a-column enabled, the column header that was selected for sorting should appear with a yellow background, as shown below. You should do this by setting controller variables that are used to conditionally set the CSS class of the appropriate table heading to `hilite`, and pasting this simple CSS into RottenPotatoes `app/assets/stylesheets/default.css` file. You can create this file if it does not yet exist.
 
 ```css
 table#movies th.hilite {
@@ -22,7 +22,7 @@ The link (that is, the `<a>` tag) for sorting by "title" should have the HTML el
 
 * The current RottenPotatoes views use the Rails-provided "resource-based routes" helper `movies_path` to generate the correct URI for the movies index page. You may find it helpful to know that if you pass this helper method a hash of additional parameters, those parameters will be parsed by Rails and available in the `params[]` hash.  
 
-* Databases are pretty good at returning collections of rows in sorted order according to one or more attributes. Before you rush to sort the collection returned from the database, look at the [documentation](http://api.rubyonrails.org/v4.2.6/) for `ActiveRecord.order` and see if you can get the database to do the work for you.
+* Databases are pretty good at returning collections of rows in sorted order according to one or more attributes. Before you rush to sort the collection returned from the database, look at the [documentation](https://apidock.com/rails/ActiveRecord/QueryMethods/order) for `ActiveRecord.order` and see if you can get the database to do the work for you.
 
 * Don't put code in your views! The view shouldn't have to sort the collection itself--its job is just to show stuff. The controller should spoon-feed the view exactly what is to be displayed.  
 
