@@ -11,7 +11,7 @@ $ npm install -g heroku
 Once the Heroku CLI is available, you can log in.
 
 ```sh
-$ heroku login
+$ heroku login -i
 ```
 
 Once your account is set up (a one-time process), you should be able to create an "app container" on Heroku into which you'll deploy RottenPotatoes:
