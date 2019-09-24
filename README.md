@@ -29,7 +29,10 @@ of the grading process. Even if you have code checked in that works
 properly, you still need to also deploy it to Heroku to get full
 credit. 
 
-Once you're confident the functionality works correctly on Heroku,
-submit the 
-URI of your deployed Heroku app according to the submission instructions.
+For CSCI 420/602 fall 2019, create a submission document in DOCX or PDF format. In this document,
+list your name and your partner's name, and the heroku link with your final, working code, all on
+the first page. On the subsequent pages, paste in your code for `movies_controller.rb`, `movie.rb`,
+and `index.html.haml`. Format in Consolas 10pt and start each new file on a new page.
+
+Each student should upload a copy of the document to CitLearn by the deadline.
 
